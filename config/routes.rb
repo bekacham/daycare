@@ -1,15 +1,11 @@
 Rails.application.routes.draw do
-  get 'pages/home'
 
-  get 'pages/about'
+  get 'about', to: 'pages#about'
+  get 'contact', to: 'pages#about'
+  get 'babies', to: 'pages#babies'
+  get 'kids', to: 'pages#kids'
+  get 'pricing', to: 'pages#pricing'
+  get 'menu', to: 'pages#menu'
 
-  get 'pages/babies'
-
-  get 'pages/kids'
-
-  get 'pages/pricing'
-
-  get 'pages/menu'
-
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  root to: 'pages#home'
 end
