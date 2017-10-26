@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Daycare</title>
+    <title><%= @page_title %></title>
     <%= csrf_meta_tags %>
+
+    <meta name="keywords" content="<%= @seo_keywords %>" />
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+
+    <div>
+      <div><%= link_to "Home", root_path %></div>
+      <div><%= link_to "Pricing", pricing_path %></div>
+      <div><%= link_to "About Me", about_path %></div>
+      <div><%= link_to "Weekly Menu", menu_path %></div>
+    </div>
+
     <%= yield %>
   </body>
 </html>
