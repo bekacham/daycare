@@ -16,14 +16,11 @@
 
   <body>
 
-    <div>
-      <div><%= link_to "Home", root_path %></div>
-      <div><%= link_to "Pricing", pricing_path %></div>
-      <div><%= link_to "About Me", about_path %></div>
-      <div><%= link_to "Weekly Menu", menu_path %></div>
-    </div>
+    <%= render "shared/nav", location: 'top' %>
 
     <%= yield %>
+
+    <%= source_helper %>
 
     <%= copyright_generator %>
   </body>
