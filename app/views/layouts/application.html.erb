@@ -15,13 +15,16 @@
   </head>
 
   <body>
+    <main role="main">
+      <%= render "shared/application_nav"%>
 
-    <%= render "shared/nav", location: 'top' %>
+      <%= yield %>
 
-    <%= yield %>
+      <%= source_helper %>
 
-    <%= source_helper %>
+      <%= copyright_generator %>
 
-    <%= copyright_generator %>
+    </main>
+
   </body>
 </html>
