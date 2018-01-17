@@ -1,15 +1,38 @@
 @import "bootstrap";
+@import "font-awesome";
 
 body {
   padding-top: 3.5rem;
+  padding-bottom: 1rem;
 }
 
 .top a {
   color: red;
 }
 
+.display-3 {
+  padding-top: 6rem;
+}
+
+.container-fluid {
+  padding: 4rem;
+  margin-bottom: auto;
+}
+
+.col-sm-6 {
+  padding: 1rem;
+}
+
+.contact {
+  padding-bottom: 1rem;
+}
+
+.fa {
+  padding-top: 1rem;
+}
+
 .jumbotron-a {
-    margin-bottom: 0px;
+    margin-bottom: 1rem;
     background-image: url(becca-tapert-357541.jpg);
     background-position: 0% 60%;
     background-size: cover;
@@ -21,7 +44,7 @@ body {
 }
 
 .jumbotron-b {
-    margin-bottom: 0px;
+    margin-bottom: 1rem;
     background-image: url(kelly-sikkema-212376.jpg);
     background-position: 0% 60%;
     background-size: cover;
@@ -33,14 +56,17 @@ body {
 }
 
 .jumbotron-c {
-    margin-bottom: 0px;
+    margin-bottom: 1rem;
     background-image: url(michael-podger-41325.jpg);
-    background-position: 0% 60%;
+    background-position: 0% 50%;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
     text-shadow: black 0.2em 0.2em 0.2em;
     padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-bottom: 4rem;
 }
 
+.navbar-brand {
+  height: 10px;
+}

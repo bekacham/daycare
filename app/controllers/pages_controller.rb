@@ -8,12 +8,8 @@ class PagesController < ApplicationController
     @page_title = "About me"
   end
 
-  def babies
-    @page_title = "Baby Program"
-  end
-
-  def kids
-    @page_title = "Toddler Program"
+  def contact
+    @page_title = "Contact"
   end
 
   def pricing
