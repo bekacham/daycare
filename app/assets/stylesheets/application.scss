@@ -32,9 +32,10 @@ body {
 }
 
 .jumbotron-a {
+    margin-top: -4rem;
     margin-bottom: 1rem;
     background-image: url(becca-tapert-357541.jpg);
-    background-position: 0% 60%;
+    background-position: 50% 60%;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -44,9 +45,10 @@ body {
 }
 
 .jumbotron-b {
+    margin-top: -4rem;
     margin-bottom: 1rem;
     background-image: url(kelly-sikkema-212376.jpg);
-    background-position: 0% 60%;
+    background-position: 50% 60%;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -56,6 +58,7 @@ body {
 }
 
 .jumbotron-c {
+    margin-top: -4rem;
     margin-bottom: 1rem;
     background-image: url(michael-podger-41325.jpg);
     background-position: 0% 50%;
@@ -67,6 +70,6 @@ body {
     padding-bottom: 4rem;
 }
 
-.navbar-brand {
-  height: 10px;
+.navbar {
+  background-color: rgba(211,211,211,.5);
 }

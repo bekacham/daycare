@@ -13,6 +13,7 @@ body {
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
+  margin-top: -4rem;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -86,4 +87,8 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+
+.navbar {
+  background-color: rgba(211,211,211,.5);
 }
