@@ -4,6 +4,7 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
+  font-family: 'Lato', sans-serif;
 }
 
 
@@ -18,7 +19,14 @@ body {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
-  bottom: 3rem;
+  bottom: 16rem;
+}
+
+.carousel-caption h1 {
+  font-size: 5rem;
+  font-family: 'Barrio', cursive;
+  color: rgba(255,255,255,.75);
+  text-shadow: black 0.1em 0em 0.3em;
 }
 
 /* Declare heights because of positioning of img element */

@@ -4,6 +4,7 @@
 body {
   padding-top: 3.5rem;
   padding-bottom: 1rem;
+  font-family: 'Lato', sans-serif;
 }
 
 .top a {
@@ -17,10 +18,18 @@ body {
 .container-fluid {
   padding: 4rem;
   margin-bottom: auto;
+  text-align: center;
 }
 
 .col-sm-6 {
   padding: 1rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.left a {
+  color: black;
+  text-decoration: underline;
 }
 
 .contact {
@@ -28,7 +37,20 @@ body {
 }
 
 .fa {
-  padding-top: 1rem;
+  padding: 10px;
+  color: #d3d3d3;
+  text-shadow: #3f3f3f 0.05em 0 0.3em;
+}
+
+.background {
+  background-color: rgba(135, 169, 107, .3);
+  margin-top: -4rem;
+  margin-bottom: -6rem;
+}
+
+iframe {
+  height: 100%;
+  width: 100%;
 }
 
 .jumbotron-a {
@@ -61,7 +83,7 @@ body {
     margin-top: -4rem;
     margin-bottom: 1rem;
     background-image: url(michael-podger-41325.jpg);
-    background-position: 0% 50%;
+    background-position: 0% 35%;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -70,6 +92,16 @@ body {
     padding-bottom: 4rem;
 }
 
+.bio {
+  text-left: center;
+  padding: 5px 50px 5px 5px;
+}
+
 .navbar {
   background-color: rgba(211,211,211,.5);
+}
+
+h2 {
+  font-family: 'Homemade Apple', cursive;
+  padding: 5px;
 }
