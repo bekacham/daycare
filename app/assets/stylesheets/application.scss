@@ -78,7 +78,7 @@ iframe {
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-bottom: 3.5rem;
 }
 
 .jumbotron-b {
@@ -92,7 +92,7 @@ iframe {
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-bottom: 12rem;
 }
 
 .jumbotron-c {
@@ -107,7 +107,7 @@ iframe {
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 8rem;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
 }
 
 .bio {
@@ -119,16 +119,16 @@ iframe {
   background-color: rgba(211,211,211,.5);
 }
 
-#nav {
+#navbarCollapse {
   padding-left: 100px;
 }
 
-#nav li a {
+#navbarCollapse li a {
   color: white;
   font-size: 1.1rem;
 }
 
-#nav li a:hover {
+#navbarCollapse li a:hover {
   color: rgb(64,64,64)
 }
 

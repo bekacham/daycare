@@ -53,6 +53,8 @@ body {
 }
 .marketing h2 {
   font-weight: 400;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .marketing .col-lg-4 p {
   margin-right: .75rem;
@@ -101,15 +103,15 @@ body {
   background-color: rgba(211,211,211,.5);
 }
 
-#nav {
+#navbarCollapse {
   padding-left: 100px;
 }
 
-#nav li a {
+#navbarCollapse li a {
   color: white;
   font-size: 1.1rem;
 }
 
-#nav li a:hover {
+#navbarCollapse li a:hover {
   color: rgb(64,64,64)
 }

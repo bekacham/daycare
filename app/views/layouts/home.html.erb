@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Barrio|Fascinate|Lato" rel="stylesheet">
 
-    <title><%= @page_title %></title>
+    <title>Sunshine Daycare</title>
     <%= csrf_meta_tags %>
 
     <meta name="keywords" content="<%= @seo_keywords %>" />
+
+    <%= favicon_link_tag 'favicon.ico' %>
 
 
     <%= stylesheet_link_tag    'home', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -66,41 +68,35 @@
         </a>
       </div>
 
-
-      <!-- Marketing messaging and featurettes
-      ================================================== -->
-      <!-- Wrap the rest of the page in another container to center all the content. -->
-
       <div class="container marketing">
-
-        <!-- Three columns of text below the carousel -->
         <div class="row">
+
+        <div class="col-lg-4">
+            <%= image_tag("katie-smith-104748.jpg", alt: "Second slide", size: 140, :class =>"rounded-circle")%>
+            <h2>Meals and Snacks</h2>
+            <p>We are always trying to perfect our healthy but kid friendly menu, and are always willing to adjust for allergy or dietary needs.</p>
+            <p><a class="btn btn-secondary" href="menu" role="button">View details &raquo;</a></p>
+          </div>
+
           <div class="col-lg-4">
             <%= image_tag("allef-vinicius-110497.jpg", alt: "Second slide", size: 140, :class =>"rounded-circle")%>
             <h2>About Us</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+            <p>The three of us have been working together for over two years, creating a warm and fun home environment. We'd love a chance to meet you and your little ones. Click here to learn a little more about us!</p>
             <p><a class="btn btn-secondary" href="about" role="button">Read More &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <%= image_tag("katie-smith-104748.jpg", alt: "Second slide", size: 140, :class =>"rounded-circle")%>
-            <h2>Meals and Snacks</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <p><a class="btn btn-secondary" href="menu" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
+          </div>
+
           <div class="col-lg-4">
             <%= image_tag("click-and-boo-246755.jpg", alt: "Second slide", size: 140, :class =>"rounded-circle")%>
             <h2>Prices</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p>Prices include all meals and snacks. We are state certified and accept state assistance. Please contact us if you have any questions.</p>
             <p><a class="btn btn-secondary" href="pricing" role="button">Read more &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
+          </div>
+        </div>
 
-
-        <!-- START THE FEATURETTES -->
 
         <hr class="featurette-divider">
 
-        <div class="row featurette">
+        <!-- <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading"><span class="text-muted">Learning</span></h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
@@ -134,9 +130,7 @@
           </div>
         </div>
 
-        <hr class="featurette-divider">
-
-        <!-- /END THE FEATURETTES -->
+        <hr class="featurette-divider"> -->
 
       </div><!-- /.container -->
 
