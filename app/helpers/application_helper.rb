@@ -1,7 +1,7 @@
 module ApplicationHelper
 
   def copyright_generator
-    ChambersViewTool::Renderer.copyright 'Rebekah Chambers', 'All rights reserved'
+    ChambersViewTool::Renderer.copyright 'Dev Mosaic', 'All rights reserved'
   end
 
   def source_helper
